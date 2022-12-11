@@ -29,6 +29,17 @@ public class MessageManager {
         }
     }
 
+    public void sendMessage(String message, MessageDestination dest, NotifyType type) {
+        if (dest.equals(MessageDestination.MINECRAFT)) {
+            sendMinecraftNotification(message, type, null);
+        } else if (dest.equals(MessageDestination.DISCORD)) {
+            sendDiscordMessage(message, type);
+        } else if (dest.equals(MessageDestination.ALL)) {
+            sendMinecraftNotification(message, type, null);
+            sendDiscordMessage(message, type);
+        }
+    }
+
     public void sendMinecraftNotification(String message, NotifyType type, Sound sound) {
         if (type.equals(NotifyType.NORMAL)) {
             Bukkit.broadcastMessage(message);
