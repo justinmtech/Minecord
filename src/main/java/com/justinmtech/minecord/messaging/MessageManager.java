@@ -18,7 +18,7 @@ public class MessageManager {
         this.textChannel = textChannel;
     }
 
-    public void sendNotification(String message, MessageDestination dest, NotifyType type, Sound sound) {
+    public void sendMessage(String message, MessageDestination dest, NotifyType type, Sound sound) {
         if (dest.equals(MessageDestination.MINECRAFT)) {
             sendMinecraftNotification(message, type, sound);
         } else if (dest.equals(MessageDestination.DISCORD)) {
