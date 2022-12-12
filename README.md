@@ -8,10 +8,10 @@ No more Discord message building for simple messages!
 
 This repo uses JitPack. To use the utility with Maven, you need the following repository and dependency in your project:
 
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
     
 	<dependency>
 	    <groupId>com.github.justinmtech</groupId>
