@@ -4,7 +4,7 @@ Javacord messaging utility for Minecraft bot plugins.
 Make a message in one format and one place, and send it to a Discord server and Minecraft server at once. 
 No more Discord message building for simple messages!
 
-# Dependency
+# Dependency Setup
 
 This repo uses JitPack. To use the utility with Maven, you need the following repository and dependency in your project:
 
