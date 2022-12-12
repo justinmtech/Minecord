@@ -1,4 +1,4 @@
-package com.justinmtech.minecord.plugin;
+package com.justinmtech.minecord;
 
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;

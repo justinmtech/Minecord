@@ -1,0 +1,8 @@
+name: Minecord
+version: '${project.version}'
+main: com.justinmtech.minecord.Minecord
+api-version: 1.13
+prefix: Minecord
+authors: [ justinmtech ]
+description: Collection of Spigot/Bukkit helper utilities.
+website: https://justinmtech.com
